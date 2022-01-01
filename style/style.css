@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Fraunces', serif;
+}
+
+.display {
+  width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main header {
+  background-image: url(../images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main header .display {
+  margin-top: 30px;
+}
+
+main header .display #containerInfoHeader {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main header .display #containerInfoHeader nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 60px;
+}
+
+main header .display #containerInfoHeader nav ul li {
+  padding: 10px 20px;
+  border-radius: 20px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+main header .display #containerInfoHeader nav ul li a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+main header .display #containerInfoHeader nav ul li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+main header .display #Creative {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 270px;
+}
+
+main header .display #Creative h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: white;
+  margin-bottom: 100px;
+}
+
+main #Apresentation {
+  width: 1440px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto auto auto;
+  -ms-grid-columns: 720px 720px;
+      grid-template: auto auto auto/ 720px 720px;
+}
+
+main #Apresentation #brand, main #Apresentation #audience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #Apresentation #brand #InfoBrand a::before, main #Apresentation #audience #InfoBrand a::before {
+  background-color: rgba(250, 212, 0, 0.3);
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+}
+
+main #Apresentation #brand #infoAudience a::before, main #Apresentation #audience #infoAudience a::before {
+  background-color: rgba(254, 120, 103, 0.3);
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+}
+
+main #Apresentation #brand #InfoBrand, main #Apresentation #brand #infoAudience, main #Apresentation #audience #InfoBrand, main #Apresentation #audience #infoAudience {
+  width: 500px;
+}
+
+main #Apresentation #brand #InfoBrand h2, main #Apresentation #brand #infoAudience h2, main #Apresentation #audience #InfoBrand h2, main #Apresentation #audience #infoAudience h2 {
+  font-size: 50px;
+  width: 500px;
+}
+
+main #Apresentation #brand #InfoBrand p, main #Apresentation #brand #infoAudience p, main #Apresentation #audience #InfoBrand p, main #Apresentation #audience #infoAudience p {
+  color: #818498;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+main #Apresentation #brand #InfoBrand a, main #Apresentation #brand #infoAudience a, main #Apresentation #audience #InfoBrand a, main #Apresentation #audience #infoAudience a {
+  font-family: 'Fraunces', serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+main #Apresentation #brand #InfoBrand a::before, main #Apresentation #brand #infoAudience a::before, main #Apresentation #audience #InfoBrand a::before, main #Apresentation #audience #infoAudience a::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 10px;
+  left: -3px;
+  bottom: -5px;
+  border-radius: 5px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+main #Apresentation #brand #InfoBrand a:hover::before, main #Apresentation #brand #infoAudience a:hover::before, main #Apresentation #audience #InfoBrand a:hover::before, main #Apresentation #audience #infoAudience a:hover::before {
+  width: 130px;
+}
+
+main #Apresentation #imageBrand, main #Apresentation #imageAudience {
+  height: 600px;
+}
+
+main #Apresentation #graphicDesign {
+  background-image: url(../images/desktop/image-graphic-design.jpg);
+  color: #25564b;
+}
+
+main #Apresentation #photography {
+  background-image: url(../images/desktop/image-photography.jpg);
+  color: #19536b;
+}
+
+main #Apresentation #graphicDesign, main #Apresentation #photography {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #Apresentation #graphicDesign div, main #Apresentation #photography div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 325px;
+  margin-bottom: 60px;
+}
+
+main #Apresentation #graphicDesign div h3, main #Apresentation #photography div h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+main #Apresentation #graphicDesign div p, main #Apresentation #photography div p {
+  text-align: center;
+  line-height: 25px;
+}
+/*# sourceMappingURL=style.css.map */
