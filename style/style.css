@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Barlow', sans-serif;
+  background-color: white;
 }
 
 h1, h2, h3 {
@@ -266,5 +267,124 @@ main #Apresentation #graphicDesign div h3, main #Apresentation #photography div 
 main #Apresentation #graphicDesign div p, main #Apresentation #photography div p {
   text-align: center;
   line-height: 25px;
+}
+
+main #clients {
+  width: 1440px;
+  margin: 250px 0;
+}
+
+main #clients h2 {
+  text-align: center;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: #a7abae;
+}
+
+main #clients #containerClients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 100px;
+}
+
+main #clients #containerClients div {
+  text-align: center;
+}
+
+main #clients #containerClients div img {
+  border-radius: 100%;
+  margin-bottom: 50px;
+}
+
+main #clients #containerClients div p {
+  width: 350px;
+  line-height: 30px;
+  font-size: 18px;
+  color: #818498;
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+
+main #clients #containerClients b {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+main #clients #containerClients span {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #a7abae;
+}
+
+main #images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+main #images img {
+  width: calc(100%/4);
+}
+
+main footer {
+  width: 100%;
+  background-color: #90D4C5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 150px 0;
+}
+
+main footer #logo {
+  margin-bottom: 50px;
+}
+
+main footer nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 80px;
+}
+
+main footer nav ul li a {
+  color: #25564b;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+main footer nav ul li a:hover {
+  color: white;
+}
+
+main footer #icons {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  margin-top: 100px;
 }
 /*# sourceMappingURL=style.css.map */
